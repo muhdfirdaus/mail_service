@@ -422,6 +422,5 @@ GET /global-mails?scope=active&page=1&pageSize=10
 
 ---
 
-**Author:** OKA Dev Team  
-**Maintainer:** @m-firdaus  
-**License:** Internal Use Only
+**Author:** @muhdfirdaus
+**Maintainer:** @muhdfirdaus  
