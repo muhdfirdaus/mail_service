@@ -1,0 +1,36 @@
+{
+  "name": "mail-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:develop": "cross-env APP_ENV=develop ts-node src/index.ts",
+    "dev:qa": "cross-env APP_ENV=qa ts-node src/index.ts",
+    "dev:staging": "cross-env APP_ENV=staging ts-node src/index.ts",
+    "dev:prod": "cross-env APP_ENV=production ts-node src/index.ts",
+    "build": "tsc",
+    "start:develop": "cross-env APP_ENV=develop node dist/index.js",
+    "start:qa": "cross-env APP_ENV=qa node dist/index.js",
+    "start:staging": "cross-env APP_ENV=staging node dist/index.js",
+    "start:prod": "cross-env APP_ENV=production node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dayjs": "^1.11.18",
+    "dotenv": "^17.2.3",
+    "dotenv-flow": "^4.1.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2",
+    "node-cron": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.9.2",
+    "cross-env": "^10.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
