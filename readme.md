@@ -422,5 +422,5 @@ GET /global-mails?scope=active&page=1&pageSize=10
 
 ---
 
-**Author:** @muhdfirdaus
+**Author:** @muhdfirdaus  
 **Maintainer:** @muhdfirdaus  
